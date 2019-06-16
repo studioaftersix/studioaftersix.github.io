@@ -1,0 +1,46 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body, section, div, h1, h2, h3, h4, h5, a, p {
+	font-family: 'archia';
+}
+
+html, body, section, div, h5, a, p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 80px;
+	font-weight: 500;
+}
+
+.sxn-full {
+	height: 100vh;
+}
+
+.banner-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.bg-fixed {
+	background-attachment: fixed;
+}
+
+.text-white {
+	color: white;
+}
+
+.pt96 {
+	padding-top: 96px;
+}
+
+.pb96 {
+	padding-bottom: 96px;
+}
