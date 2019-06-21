@@ -14,9 +14,23 @@ html, body, section, div, h5, a, p {
 }
 
 h1 {
-	font-size: 64px;
-	line-height: 80px;
+	font-size: 80px;
+	line-height: 100px;
 	font-weight: 500;
+}
+
+
+#logo {
+    display: inline-block;
+	height: 64px;
+	padding-bottom: 20px;
+	box-sizing: content-box; 
+}
+
+.collab {
+	font-weight: lighter;
+	font-size: 40px;
+
 }
 
 .sxn-full {
@@ -26,7 +40,7 @@ h1 {
 .banner-image {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 50% 60%;
 }
 
 .bg-fixed {
@@ -37,8 +51,10 @@ h1 {
 	color: white;
 }
 
-.font-14 {
-	font-size: 14px;
+.text-black {
+	font-size: 80px;
+	line-height: 100px;
+	color: black;
 }
 
 .pt96 {
@@ -49,23 +65,105 @@ h1 {
 	padding-bottom: 96px;
 }
 
-.contact-us {
-	position: fixed;
+.brands {
+	padding-bottom: 100px;
+}
 
+.brand-logos {
+	padding-top: 60px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.service {
+	font-weight: lighter;
+}
+
+.social a {
+	display: inline-block;
+	font-size: 28px;
+	font-weight: lighter;
+	padding-bottom: 16px;
+	color: black;
+}
+
+.social-text {
+	padding-right: 8px;
+	width: 35px;
+}
+
+.email {
+	padding-left: 20px;
 }
 
 .small-only {
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
-	body {
-		background: red;
+.big-only {
+	display: inherit;
+}
+
+#title-page h1 {
+	padding-top: 40vh;
+}
+
+#what-we-do h1 {
+	padding-top: 34vh;
+}
+
+#portfolio h1 {
+	padding-top: 8vh;
+}
+
+
+@media only screen and (max-width: 375px) {
+	#logo {
+    	height: 40px;
+    	padding-bottom: 20px;	
+    }
+	#title-page h1 {
+		padding-top: 26vh;
+	}
+	#what-we-do h1 {
+		font-size: 64px;
+		line-height: 72px;
+	}
+	#portfolio h1 {
+		padding-top: 16vh;
+		font-size: 21px;
+	}
+	#contact h1 {
+		font-size: 64px;
+		line-height: 72px;
+	}
+	.row {
+		padding: 0 24px
 	}
 	.small-only {
-		display: inline-block;
+		display: inherit;
 	}
-	h1 {
-		font-size: 156px;
+	.big-only {
+		display: none;
 	}
+	.sxn-full {
+		min-height: 100vh;
+		height: auto;
+	}
+	.social a {
+		position: relative;
+		font-size: 16px;
+		padding-bottom: 0px;
+	}
+	.social {
+		line-height: 1em;
+	}
+	.social-text {
+		width: 24px;
+	}
+
+	.brand-logos {
+		padding-top: 16px;
+	}
+
 }
