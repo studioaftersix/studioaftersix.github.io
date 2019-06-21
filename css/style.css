@@ -37,10 +37,35 @@ h1 {
 	color: white;
 }
 
+.font-14 {
+	font-size: 14px;
+}
+
 .pt96 {
 	padding-top: 96px;
 }
 
 .pb96 {
 	padding-bottom: 96px;
+}
+
+.contact-us {
+	position: fixed;
+
+}
+
+.small-only {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background: red;
+	}
+	.small-only {
+		display: inline-block;
+	}
+	h1 {
+		font-size: 156px;
+	}
 }
